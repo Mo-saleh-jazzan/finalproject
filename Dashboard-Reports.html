@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Dashboard-Reports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2EB676] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+          </svg>
+       
+        <span class="text-white font-semibold mb-1 ">List of Bookings</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+            <i class="fa-solid fa-arrow-right-from-bracket text-white"></i>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        <!-- Sidebar -->
+        <div class="flex h-screen ">
+          <aside class="h-[800px] bg-[#E0DCDF] pr-1">
+           
+         
+           
+            
+              <ul class="">
+                <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+                <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+                <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+                <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/">Vehicles</a></li>
+                <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes-2.html">Routes</a></li>
+                <li class="p-4 "><a href="">Biling</a></li>
+                <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+                <li class="p-4 -mt-1"><a href="/Bookings/list-of-bookings.html">Bookings</a></li>
+                <li class="p-4 -mt-1"><a href="/Technicians/List-of-technicians.html">Technicians</a></li>
+                <li class="p-4 -mt-1"><a href="/Charging-Vehicles/Charging-vehicles.html">Charging Vehicles</a></li>
+                <li class="p-4 -mt-1"><a href="/Credits/Credits.html">Credits</a></li>
+                <li class="p-4 -mt-1"><a href="/Dashboard-Reports/Dashboard-Reports.html">Dashboard</a></li>
+                <li class="p-4 -mt-1"><a href="/Additional-Service/Additional-Service.html">Additional Service</a></li>
+              
+              </ul>
+
+        
+          </aside>
+
+          
+
+          <!-- Main Dashboard -->
+          <main class="flex-1 p-6  ">
+            <div class=" ml-5 mt-5 mr-14"> <div class="mb-4 ">
+                <h1 class="text-2xl font-semibold">Dashboard</h1>
+              </div>
+  
+              <!-- Dashboard Cards -->
+               <div class="bg-[#f0f4f7] p-2 ">
+                <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-3  gap-2"> 
+                    <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">286</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+92<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">1862</span>
+
+                      <p class="text-[10px] mt-2">Users</p>
+                    </div>
+
+                                  <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa-regular fa-file-lines"></i>
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">12</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+11<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">144</span>
+
+                      <p class="text-[10px] mt-2">Vehicles</p>
+                    </div>
+
+                    <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa-solid fa-cube"></i>
+                        
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">0</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+0<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">13</span>
+
+                      <p class="text-[10px] mt-2">Technicians</p>
+                    </div>
+
+                    <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa-solid fa-book"></i>
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">0</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+1<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">3</span>
+
+                      <p class="text-[10px] mt-2">Charging Vehicles</p>
+                    </div>
+
+
+                                   <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa-solid fa-share-nodes"></i>
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">3</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+0<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">21</span>
+
+                      <p class="text-[10px] mt-2">Avg charging mins. per charge</p>
+                    </div>
+
+
+                                    <div class="bg-white p-4 rounded shadow mb-2">
+                      <div class="flex justify-between">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+<div class="div">
+  <span class="bg-[#F4F8Bc] text-[#CFCD84] rounded-2xl">2</span>
+                        
+  <span class="bg-[#91c714] text-white px-1 py-1 rounded-2xl"
+    >+1<i class="fa fa-sort-asc ml-1" aria-hidden="true"></i></span
+  >
+</div>
+                     
+                      </div>
+                      <span class="text-xl font-semibold">26</span>
+
+                      <p class="text-[10px] mt-2">Avg.kwh per charge</p>
+                    </div>
+                  </div>
+      
+                  
+               </div>
+               <!-- Chart Section -->
+               <div class="mt-8">
+                <h2 class="text-lg font-semibold mb-4">
+                  Customer per Singapore Zones
+                </h2>
+                <img src="./images/0b3ae6f4690da7095c2c23bc0179d340 (1).png" alt="">
+              </div>
+              
+              </div>
+           
+          </main>
+        </div>
+   
+  </body>
+</html>

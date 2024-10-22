@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Routes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2CB474] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+       <a href="/Dashboard-Reports/Dashboard-Reports.html"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+      </svg></a>
+       
+        <span class="text-white font-semibold mb-1 ">Routes</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+          <a href="/Dashboard-Reports/Dashboard-Reports.html">  <i class="fa-solid fa-arrow-right-from-bracket text-white"></i></a>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        <!-- Sidebar -->
+        <div class="flex h-screen ">
+          <aside class="h-[800px] bg-[#E0DCDF] pr-1">
+           
+         
+           
+            <ul class="px-2">
+              <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+              <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+              <li class="p-4"><a href="#">Vehicles</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes.html">Routes</a></li>
+              <li class="p-4 "><a href="#">Biling</a></li>
+              <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+           
+            
+            </ul>
+
+        
+          </aside>
+         
+
+          <div class="container mx-auto">
+            <div class="p-4 border-b">
+                <div class="flex  text-[8px] ml-4">
+                    <div class="text-gray-600 pl-10 pr-72">CHARGER <span class="text-[10px]">X</span> </div>
+                    <div class="text-gray-600 pr-60">DURATION <span class="text-[10px]">91:59</span></div>
+                    <div class="text-gray-600 pr-72">ENERGY <span class="text-[10px]"> 33 kWh</span></div>
+                    <div class="text-gray-600">DISTANCE <span class="text-[10px]">44.96 km</span> </div>
+                </div>
+            </div>
+            <table class="min-w-full bg-white">
+                <thead>
+                    <tr>
+                        <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-sm font-semibold text-gray-600">Customer</th>
+                        <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-sm font-semibold text-gray-600">Duration</th>
+                        <th class="py-2 px-10 border-b border-gray-200 bg-gray-50 text-left text-sm font-semibold text-gray-600">Distance (km)</th>
+                        <th class="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-sm font-semibold text-gray-600">Energy (kWh)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-[12px]">
+                        <td class="py-2 px-4 border-b border-gray-200">i4 eDrive35</td>
+                        <td class="py-2 px-4 border-b border-gray-200">15:36</td>
+                        <td class="py-2 px-10 border-b border-gray-200">21.0</td>
+                        <td class="py-2 px-4 border-b border-gray-200">13</td>
+                    </tr>
+                    <tr class="text-[12px]">
+                        <td class="py-2 px-4 border-b border-gray-200">EQA 250 SUV</td>
+                        <td class="py-2 px-4 border-b border-gray-200">24:00</td>
+                        <td class="py-2 px-10 border-b border-gray-200">36.5</td>
+                        <td class="py-2 px-4 border-b border-gray-200">20</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+
+        <div class=" fixed  flex-col bottom-4 right-4">
+            <div class="flex flex-col items-center gap-2">
+                <button class="bg-green-500 py-4 px-4 rounded-lg  focus:outline-none focus:ring-2 focus:ring-green-400">
+                    <div class="flex">
+                        <i class="fa fa-map" aria-hidden="true"></i>
+                   
+                    </div>
+                 </button>
+
+           
+            </div>
+          </div>
+       
+     
+      
+   
+  </body>
+</html>

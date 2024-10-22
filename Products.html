@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2CB474] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+       <a href="/Dashboard-Reports/Dashboard-Reports.html"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+      </svg></a>
+       
+        <span class="text-white font-semibold mb-1 ">Products</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+          <a href="/Dashboard-Reports/Dashboard-Reports.html">  <i class="fa-solid fa-arrow-right-from-bracket text-white"></i></a>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        <!-- Sidebar -->
+        <div class="flex h-screen ">
+          <aside class="h-[800px] bg-[#E0DCDF] pr-1">
+           
+         
+            <ul class="px-2">
+              <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+              <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+              <li class="p-4"><a href="#">Vehicles</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes.html">Routes</a></li>
+              <li class="p-4 "><a href="#">Biling</a></li>
+              <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+           
+            
+            </ul>
+
+        
+          </aside>
+
+
+          <div class="container mx-auto p-6">
+            <!-- Table section -->
+            <div class="flex space-x-8">
+              <!-- Table -->
+              <div class="w-2/3">
+                <h2 class="text-lg font-semibold mb-4">Showing 4 of 4</h2>
+                <table class="min-w-full bg-white shadow-md rounded-lg">
+                  <thead class="bg-gray-100">
+                    <tr>
+                      <th class="px-4 py-2 text-left">UUID</th>
+                      <th class="px-4 py-2 text-left">Name</th>
+                      <th class="px-4 py-2 text-left">Type</th>
+                      <th class="px-4 py-2 text-left">Active</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-b">
+                      <td class="px-4 py-2">f9cd2ed5-13b5-47bf-87a4-905f9f58c125</td>
+                      <td class="px-4 py-2">Always ready</td>
+                      <td class="px-4 py-2">Monitor</td>
+                      <td class="px-4 py-2 text-center">
+                        <span class="text-red-500">✖</span>
+                      </td>
+                    </tr>
+                    <tr class="border-b">
+                      <td class="px-4 py-2">df195a9d-b786-4d73-8984-e55913c05404</td>
+                      <td class="px-4 py-2">Launch Price</td>
+                      <td class="px-4 py-2">Monitor</td>
+                      <td class="px-4 py-2 text-center">
+                        <span class="text-green-500">✔</span>
+                      </td>
+                    </tr>
+                    <tr class="border-b">
+                      <td class="px-4 py-2">a739c09d-c2de-430e-9d64-c98ff7e3cdc4</td>
+                      <td class="px-4 py-2">Member's Subscription</td>
+                      <td class="px-4 py-2">Monitor</td>
+                      <td class="px-4 py-2 text-center">
+                        <span class="text-green-500">✔</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-2">8e2aca13-4b73-45f8-a98a-093ea234f3be</td>
+                      <td class="px-4 py-2">Pay As You Go</td>
+                      <td class="px-4 py-2">Monitor</td>
+                      <td class="px-4 py-2 text-center">
+                        <span class="text-red-500">✖</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          
+              <!-- User Preview Section -->
+              <div class="w-1/3">
+                <h2 class="text-lg font-semibold mb-4">User Preview</h2>
+                
+                <!-- First Card -->
+                <div class="p-4 bg-gray-100 shadow-md rounded-lg mb-4">
+                  <h3 class="font-semibold">Launch Price</h3>
+                  <p class="text-sm text-gray-700">$120.00 a month; $0.72 per kWh</p>
+                  <ul class="text-sm mt-2 space-y-1">
+                    <li>4 X Per Month Charge up to 80% Per Trip</li>
+                    <li>Exclude $0.72/kWh Charge</li>
+                    <li>Includes First $2 Parking Charges</li>
+                    <li>Excludes GST</li>
+                  </ul>
+                </div>
+                
+                <!-- Second Card -->
+                <div class="p-4 bg-gray-100 shadow-md rounded-lg">
+                  <h3 class="font-semibold">Member's Subscription</h3>
+                  <p class="text-sm text-gray-700">$5.00 a month; first 10kWh free</p>
+                  <ul class="text-sm mt-2 space-y-1">
+                    <li>Subscribe to our service and get priority emergency roadside assistance</li>
+                    <li>Non-subscribers will be helped based on availability</li>
+                    <li>Drive confidently with our priority support</li>
+                    <li>$75 for Emergency Recovery</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         
+        
+          
+          
+
+     
+      
+   
+  </body>
+</html>

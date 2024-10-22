@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Send Emergency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2CB474] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+       <a href="list-of-bookings.html"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+      </svg></a>
+       
+        <span class="text-white font-semibold mb-1 ">Send Emergency Notification</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+          <a href="/Dashboard-Reports/Dashboard-Reports.html">  <i class="fa-solid fa-arrow-right-from-bracket text-white"></i></a>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        <!-- Sidebar -->
+        <div class="flex h-screen ">
+          <aside class="h-[950px] bg-[#E0DCDF] pr-1">
+           
+         
+                  
+            <ul class="">
+              <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+              <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/">Vehicles</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes-2.html">Routes</a></li>
+              <li class="p-4 "><a href="">Biling</a></li>
+              <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+              <li class="p-4 -mt-1"><a href="/Bookings/list-of-bookings.html">Bookings</a></li>
+              <li class="p-4 -mt-1"><a href="/Technicians/List-of-technicians.html">Technicians</a></li>
+              <li class="p-4 -mt-1"><a href="/Charging-Vehicles/Charging-vehicles.html">Charging Vehicles</a></li>
+              <li class="p-4 -mt-1"><a href="/Credits/Credits.html">Credits</a></li>
+              <li class="p-4 -mt-1"><a href="/Dashboard-Reports/Dashboard-Reports.html">Dashboard</a></li>
+              <li class="p-4 -mt-1"><a href="/Additional-Service/Additional-Service.html">Additional Service</a></li>
+            
+            </ul>
+        
+          </aside>
+
+          <div class=" w-[40rem] p-6 mt-10 ml-10 ">
+            <!-- Emergency Service Info Section -->
+            <div class="bg-[#FAFAFA]  p-6 rounded-lg mb-6">
+              <h2 class="text-xl font-semibold mb-4">Emergency Service Info</h2>
+              
+              <div class="grid grid-cols-2 gap-6 mb-4">
+                <!-- Select Date -->
+                <div>
+                  <label for="select_date" class="block text-sm font-medium text-gray-700">Select Date</label>
+                  <select id="select_date" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option>Tue, 10 Sep 2024 (Today)</option>
+                  </select>
+                </div>
+          
+                <!-- Select Time Slot -->
+                <div>
+                  <label for="time_slot" class="block text-sm font-medium text-gray-700">Select Time Slot</label>
+                  <select id="time_slot" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option>11:00 - 12:00</option>
+                  </select>
+                </div>
+              </div>
+          
+              <!-- Location -->
+              <div class="mb-4">
+                <label for="location" class="block text-sm font-medium text-gray-700">Location</label>
+                <input type="text" id="location" value="51 Ubi Ave 3, Singapore 408858" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+              </div>
+          
+              <!-- Additional Note -->
+              <div class="mb-4">
+                <label for="additional_note" class="block text-sm font-medium text-gray-700">Additional note about location:</label>
+                <input type="text" id="additional_note" value="Level 3" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+              </div>
+            </div>
+          
+            <!-- Customer Section -->
+            <div class="grid grid-cols-2 gap-6">
+              <!-- Existing Customer -->
+              <div class="bg-[#FAFAFA]  p-6  rounded-lg">
+                <div class="flex items-center space-x-2 mb-4">
+                    <input type="radio" id="new_customer" name="customer_type" class="mt-1 h-4 w-4 text-green-600 border-gray-300 ">
+                    <label for="new_customer" class="font-semibold">Existing Customer</label>
+                  </div>
+                
+                <div class="mb-4">
+                  <label for="select_existing_customer" class="block text-sm font-medium text-gray-700">Select Existing Customer</label>
+                  <select id="select_existing_customer" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option>Denise Tan</option>
+                  </select>
+                </div>
+          
+                <div class="mb-4">
+                  <label for="car_license" class="block text-sm font-medium text-gray-700">Car License Plate</label>
+                  <select id="car_license" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option>1234759</option>
+                  </select>
+                </div>
+              </div>
+          
+              <!-- New Customer -->
+              <div class="bg-[#FAFAFA]  p-6 rounded-lg">
+                <div class="flex items-center space-x-2 mb-4">
+                  <input type="radio" id="new_customer" name="customer_type" class="mt-1 h-4 w-4 text-green-600 border-gray-300 ">
+                  <label for="new_customer" class="font-semibold">New Customer</label>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                  <div>
+                    <label for="first_name" class="block text-sm font-medium text-gray-700">First Name</label>
+                    <input type="text" id="first_name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+                  </div>
+          
+                  <div>
+                    <label for="last_name" class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <input type="text" id="last_name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+                  </div>
+                </div>
+          
+                <div class="mb-4">
+                  <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                  <input type="email" id="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+                </div>
+          
+                <div class="mb-4">
+                  <label for="new_car_license" class="block text-sm font-medium text-gray-700">Car License Plate</label>
+                  <input type="text" id="new_car_license" class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div>
+            <a href=""><button class="  bg-white font-[500] mt-20 -ml-1 text-sm text-[#F73B3B] border-2 border-gray-300 px-6 py-4 rounded-lg ">Send Emergency</button></a>
+            <div class="bg-[#FDF2D7] w-[370px] h-[110px] font-[500] py-2 px-2  mt-2 -ml-1 text-center text-[16px]   border-2 border-[#A8A8AA]">Sends notification to all technicians (only the ones that are working today based on their technician working day schedule) - see the schedule via the Technician Details Page </div>
+          </div>
+          
+
+     
+   
+   
+  </body>
+</html>

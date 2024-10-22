@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Plan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2CB474] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+       <a href="/Dashboard-Reports/Dashboard-Reports.html"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+      </svg></a>
+       
+        <span class="text-white font-semibold mb-1 ">Plan</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+          <a href="/Dashboard-Reports/Dashboard-Reports.html">  <i class="fa-solid fa-arrow-right-from-bracket text-white"></i></a>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        <!-- Sidebar -->
+        <div class="flex h-screen ">
+          <aside class="h-[800px] bg-[#E0DCDF] pr-1">
+           
+         
+            <ul class="px-2">
+              <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+              <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+              <li class="p-4"><a href="#">Vehicles</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes.html">Routes</a></li>
+              <li class="p-4 "><a href="#">Biling</a></li>
+              <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+           
+            
+            </ul>
+
+        
+          </aside>
+<div class="div">
+    
+        <div class="flex mt-2 ml-6">
+       <a href="" class="text-sm font-[500] mr-8">Save Changes</a>
+       <a href="" class="text-sm font-[500]">Delete Plan</a>
+            
+        </div>
+       
+      
+        <div class="flex justify-between items-center mb-6">
+   
+
+          <div class="text-sm text-gray-500 mt-4 ">
+            <div class="ml-72 text-[12px]">
+                <span>UUID: </span>
+                <span class="font-[500] ">6689c95-546d-497d-a5b8-d2e5bcc31bd9</span>
+            </div>
+           
+          </div>
+         
+        </div>
+      
+        
+        <div class="mb-6">
+          <h2 class="text-lg font-semibold mb-4 ml-2">Detail</h2>
+          <div class="mb-8 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-10 text-gray-400">NAME</label>
+            <input type="text" id="name"  class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+          <div class="mb-4 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-16 text-gray-400">DESCRIPTION</label>
+            <input type="text" id="name"  class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+        </div>
+      
+       
+        <div>
+          <h2 class="text-xl font-semibold mb-4 ml-2 ">Pricing</h2>
+          
+          <div class="mb-8 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-10 text-gray-400">Delivery</label>
+            <input type="text" id="name" value="0" class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+          
+          <div class="mb-8 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-16 text-gray-400">Price per kWh</label>
+            <input type="text" id="name" value="0" class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+          
+          <div class="mb-8 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-16 text-gray-400">Price per kWh</label>
+            <input type="text" id="name" value="0" class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+      
+          <div class="mb-10 w-[7rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-20 text-gray-400">SUBSCRIPTIONTYPE</label>
+            <select id="subscription_type" class="-mt-7 block w-full p-2 border-b text-[12px] border-gray-400 ">
+              <option value="none">none</option>
+              <option value="monthly">weekly</option>
+              <option value="yearly">monthly</option>
+              <option value="yearly">anually</option>
+            </select>
+          </div>
+      
+          <div class="mb-8 w-[48rem] ml-72">
+            <label for="name" class="block text-[9px] font-medium -ml-28 text-gray-400">SUBSCRIPTIONAMOUNT</label>
+            <input type="text" id="name" value="0" class="-mt-6 block w-full py-1  border-b border-gray-400 " />
+          </div>
+        </div>
+      
+        <div class="flex mt-2 ml-6">
+            <a href="" class="text-sm font-[500] mr-8">Save Changes</a>
+            <a href="" class="text-sm font-[500]">Delete Plan</a>
+                 
+             </div>
+        
+      </div>
+      <div class=" flex flex-col  mt-4 ml-6  ">
+        <button class="bg-[#1E7c5F] text-white font-[500] pl-10 pr-52 pt-3 pb-6 rounded-lg"><p class="text-sm ">Free</p></button>
+       
+    </div>
+</div>
+
+         
+         
+        
+          
+          
+
+     
+      
+   
+  </body>
+</html>

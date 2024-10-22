@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Charging-Vehicles-Create</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FFFFFF]">
+ 
+ 
+
+  <nav class="bg-[#2EB676] p-3">
+    <div class="flex justify-between items-center">
+      
+     
+      <div class="flex items-center space-x-2">
+       
+      <a href="/Customers/Customers.html">  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 ml-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H3m6-6l-6 6 6 6" />
+      </svg></a>
+       
+        <span class="text-white font-semibold mb-1 ">Add New Charging Vehicle</span>
+      </div>
+
+    
+     
+    
+        <div class="hidden md:block">
+           <a href="/Dashboard-Reports/Dashboard-Reports.html"> <i class="fa-solid fa-arrow-right-from-bracket text-white"></i></a>
+        </div>
+      </div>
+      
+   
+  </nav>
+
+        
+        <div class="flex h-screen ">
+          <aside class="h-[800px] bg-[#E0DCDF] pr-1">
+           
+         
+           
+            <ul class="">
+              <li class="p-4 "><a href="/Admin-WebApp-Tech-Notes/Users.html">Users</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/charges.html">Chargers</a></li>
+              <li class="p-4"><a href="/Customers/Customers.html">Customers</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/">Vehicles</a></li>
+              <li class="p-4"><a href="/Admin-WebApp-Tech-Notes/Routes-2.html">Routes</a></li>
+              <li class="p-4 "><a href="">Biling</a></li>
+              <li class="p-4 -mt-1"><a href="/promo/promo.html">Promo</a></li>
+              <li class="p-4 -mt-1"><a href="/Bookings/list-of-bookings.html">Bookings</a></li>
+              <li class="p-4 -mt-1"><a href="/Technicians/List-of-technicians.html">Technicians</a></li>
+              <li class="p-4 -mt-1"><a href="/Charging-Vehicles/Charging-vehicles.html">Charging Vehicles</a></li>
+              <li class="p-4 -mt-1"><a href="/Credits/Credits.html">Credits</a></li>
+              <li class="p-4 -mt-1"><a href="/Dashboard-Reports/Dashboard-Reports.html">Dashboard</a></li>
+              <li class="p-4 -mt-1"><a href="/Additional-Service/Additional-Service.html">Additional Service</a></li>
+            
+            </ul>
+
+        
+          </aside>
+         
+ 
+          
+           
+              
+              
+              <div class="lg:col-span-2 space-y-4 mt-16 ml-16 ">
+                <!-- Customer Info -->
+                <div class="bg-gray-50 p-4 rounded-md ">
+                  <h2 class="font-semibold text-sm mb-2 border-b pb-2">Customer Info</h2>
+                  <p class="  mb-1 text-[12px]">UID:000123455</p>
+                  <p class="text-[12px] mb-1">First Name:Andrew</p>
+                  <p class="text-[12px] mb-1">Last Name:Tan</p>
+                  <p class="text-[12px] mb-1">Phone Number:+65 1234 5678</p>
+                  <p class="text-[12px] mb-1">Email Address:andrew@agmail.com</p>
+                  <p class="text-[12px] mb-1">Date:01-09-2024, 12:00</p>
+                </div>
+          
+                <!-- Current Balance -->
+                <div class="bg-gray-50 p-4 rounded-lg shadow">
+                  <h2 class="font-semibold text-gray-700 mb-2 border-b pb-1">Current Balance</h2>
+                  <div class="flex justify-between">
+                    <span class="px-24">Credit Dollar: 50 </span>
+                    <span class="px-24">Credit Session: 2</span>
+                  </div>
+                </div>
+          
+                <!-- Statistics -->
+                <div class="bg-gray-50 p-4 rounded-lg shadow">
+                  <h2 class="font-semibold text-gray-700 mb-2 border-b pb-1">Statistics</h2>
+                  <div class="flex space-x-4 items-center">
+                    
+
+                    <span class="text-sm"> <i class="fa-regular fa-clock text-sm text-gray-400 ml-12 px-2"></i> Avg Charge Duration: 15:20</span>
+                    <span class="text-sm"><i class="fa fa-bolt text-sm text-gray-400 ml-24 px-2" aria-hidden="true"></i> Avg total kWh per month: 50</span>
+                  </div>
+                </div>
+          
+                <!-- Additional Service -->
+                <div class="bg-gray-50 px-4 pt-4 pb-1 rounded-lg shadow">
+                  <h2 class="font-semibold text-gray-700 mb-1 border-b pb-1">Additional Service</h2>
+                  <div class="flex items-center justify-between">
+                    <span class="text-sm mt-1">Emergency Service ($5 / month)</span>
+                  </div>
+                  <i class="fa fa-toggle-on text-green-500 text-[2.5rem] mt-2" aria-hidden="true"></i>
+
+                </div>
+          
+                <!-- Vehicle Info -->
+                <div class="bg-gray-50 px-4 pb-4 pt-2 rounded-lg shadow">
+                  <h2 class="font-semibold text-gray-700 mb-2 border-b pb-1">Vehicle Info</h2>
+                  <p class="text-[12px] mb-1 ">Car License Plate:12345678</p>
+                  <p class="text-[12px] mb-1 ">UUID:02892183123132</p>
+                  <p class="text-[12px] mb-1 ">Brand:Tesla</p>
+                  <p class="text-[12px] mb-1 ">SoC:36%</p>
+                  <p class="text-[12px] mb-1 ">Created: 2024-09-01, 3:13</p>
+                  <p class="text-[12px] mb-1 ">Updated: 11 months ago</p>
+                </div>
+          
+                <!-- Preferred Locations -->
+                <div class="bg-gray-50 px-4 py-2 rounded-lg shadow ">
+                  <h2 class="font-semibold text-sm mb-2">Preferred Locations</h2>
+                  <ul class="list-none space-y-1 text-[13px]">
+                    <li><i class="fa fa-map-marker text-gray-400" aria-hidden="true"></i> 51 Ubi Ave 3, Singapore 408858</li>
+                    <li><i class="fa fa-map-marker text-gray-400" aria-hidden="true"></i> 51 Ubi Ave 3, Singapore 408858</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="flex-col  space-y-2 mt-16 ml-4">
+                <button class="w-full bg-[#2CB474] text-white py-2 rounded-lg ">Edit</button>
+                <button class="w-full bg-[#2CB474] text-white py-2 rounded-lg">Send Credits</button>
+                <button class="w-full bg-white text-[#F73B3B] font-bold py-2 rounded-md border border-[#F73B3B] ">Delete</button>
+              </div>
+          
+       
+           
+            </div>
+            
+          </div>
+      
+       
+          
+   
+
+      
+        
+   
+  </body>
+</html>
